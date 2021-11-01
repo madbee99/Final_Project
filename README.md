@@ -5,7 +5,7 @@ Topic: 2019 California College Admisssions
 
 The goal of my project is to predict whether or not someone will get into a particular college (chosen from a drop-down menu) based on an individual's inputted test scores and admissions/acceptance rates, etc. for that particluar school.
 
-My dataset is from https://nces.ed.gov and is saved in the Resources folder. I've selected only 4-year colleges located in California for the dataset. I am debating whether or not I just want to use test scores (SAT and ACT) as predictor variables or also use some of the categorical variables (whether or not a secondary GPA is required in one's applciation).  
+My dataset is from https://nces.ed.gov and is saved in the [Resources folder](https://github.com/madbee99/Final_Project/tree/main/Resources). I've selected only 4-year colleges located in California for the dataset. I am debating whether or not I just want to use test scores (SAT and ACT) as predictor variables or also use some of the categorical variables (whether or not a secondary GPA is required in one's applciation).  
 
 Here are screenshots of the selections I made for my dataset:  
 ![image](https://user-images.githubusercontent.com/86338416/139623166-586295a6-70bf-498e-a79c-e39228ce1a2e.png)  
