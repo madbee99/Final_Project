@@ -24,6 +24,38 @@ Questions:
 * Should I try to find a better dataset that has an "Accepted?" column?
 
 
+## Presentation
+* Topic: U.S. College Admissions
+* Why:
+* Data Source Description:
+* Questions (hope to answer):
+* Data Exploration Description
+* Data Analysis Description
+* Technologies, Languages, Tools, and Algorithms used:
+* Result of Analysis
+* Recommendation for Future Analysis
+* Anything the team would have done differently
+
+## GitHub
+* Structured Outline of Project
+* Link to Demo Video
+* Link to Google Slides presentation
+
+## Machine Learning Model
+* Description of data preprocessing
+* Description of feature engineering/selection; team's decision-making process
+* Description of how the data was split into testing/training sests
+* Explanation of model choice, including liitations and benefits
+* Explanation of changes in model choice (if changes occurred)
+* Description of how the model was trained
+* Description and explanation of model's confusion matrix, including final accuracy score
+
+## Database
+
+## Dashboard
+
+
+
 
 
 
