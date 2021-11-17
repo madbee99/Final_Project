@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>U.S. College Admissions</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+  </head>
+<body>
+    <div class="container">
+        <!-- Add Jumbotron to Header -->
+        <div class="jumbotron text-center" style="background-image: url(https://wp.dailybruin.com/images/2017/04/web.ns_.bruin_.day_.AL_.jpg); background-size: cover;">
+          <h1>College Admissions</h1>
+          <!-- Add a button to activate scraping script -->
+        </div>
+
+      <div class="row" id="Background">
+        <div class="col-md-12">
+          <div class="media">
+            <div class="media-body">
+              <h2><b>This is the news</b></h2>
+              <h4 class="media-heading"><i>This is the title</i></h4>
+              <p>This is a paragraph</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <form action = "/predict" method = "POST">
+        <label>GRE SCORE (0-800)</label>
+        <input type = "text" name = "gre">
+        <label>GPA (0.0-4.0)</label>
+        <input type = "text" name = "gpa">
+        <label>Undergrad School Rank (Integer: 1-4)</label>
+        <input type = "text" name = "rank">
+        <input type = "submit" value = "Submit scores for prediction" style = "background-color:rgb(248, 41, 186)">
+    </form>
+</body>
+</html>

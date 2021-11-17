@@ -1,0 +1,73 @@
+VariableName,Value,ValueLabel
+FIPS state code (HD2020),1,Alabama
+FIPS state code (HD2020),2,Alaska
+FIPS state code (HD2020),4,Arizona
+FIPS state code (HD2020),5,Arkansas
+FIPS state code (HD2020),6,California
+FIPS state code (HD2020),8,Colorado
+FIPS state code (HD2020),9,Connecticut
+FIPS state code (HD2020),10,Delaware
+FIPS state code (HD2020),11,District of Columbia
+FIPS state code (HD2020),12,Florida
+FIPS state code (HD2020),13,Georgia
+FIPS state code (HD2020),15,Hawaii
+FIPS state code (HD2020),16,Idaho
+FIPS state code (HD2020),17,Illinois
+FIPS state code (HD2020),18,Indiana
+FIPS state code (HD2020),19,Iowa
+FIPS state code (HD2020),20,Kansas
+FIPS state code (HD2020),21,Kentucky
+FIPS state code (HD2020),22,Louisiana
+FIPS state code (HD2020),23,Maine
+FIPS state code (HD2020),24,Maryland
+FIPS state code (HD2020),25,Massachusetts
+FIPS state code (HD2020),26,Michigan
+FIPS state code (HD2020),27,Minnesota
+FIPS state code (HD2020),28,Mississippi
+FIPS state code (HD2020),29,Missouri
+FIPS state code (HD2020),30,Montana
+FIPS state code (HD2020),31,Nebraska
+FIPS state code (HD2020),32,Nevada
+FIPS state code (HD2020),33,New Hampshire
+FIPS state code (HD2020),34,New Jersey
+FIPS state code (HD2020),35,New Mexico
+FIPS state code (HD2020),36,New York
+FIPS state code (HD2020),37,North Carolina
+FIPS state code (HD2020),38,North Dakota
+FIPS state code (HD2020),39,Ohio
+FIPS state code (HD2020),40,Oklahoma
+FIPS state code (HD2020),41,Oregon
+FIPS state code (HD2020),42,Pennsylvania
+FIPS state code (HD2020),44,Rhode Island
+FIPS state code (HD2020),45,South Carolina
+FIPS state code (HD2020),46,South Dakota
+FIPS state code (HD2020),47,Tennessee
+FIPS state code (HD2020),48,Texas
+FIPS state code (HD2020),49,Utah
+FIPS state code (HD2020),50,Vermont
+FIPS state code (HD2020),51,Virginia
+FIPS state code (HD2020),53,Washington
+FIPS state code (HD2020),54,West Virginia
+FIPS state code (HD2020),55,Wisconsin
+FIPS state code (HD2020),56,Wyoming
+Sector of institution (HD2020),1,"Public, 4-year or above"
+Sector of institution (HD2020),2,"Private not-for-profit, 4-year or above"
+Open admission policy (IC2018),1,Yes
+Open admission policy (IC2018),2,No
+Open admission policy (IC2018),-2,Not applicable
+Secondary school GPA (ADM2018),1,Required
+Secondary school GPA (ADM2018),5,Considered but not required
+Secondary school GPA (ADM2018),2,Recommended
+Secondary school GPA (ADM2018),3,Neither required nor recommended
+Secondary school rank (ADM2018),1,Required
+Secondary school rank (ADM2018),5,Considered but not required
+Secondary school rank (ADM2018),2,Recommended
+Secondary school rank (ADM2018),3,Neither required nor recommended
+Secondary school record (ADM2018),1,Required
+Secondary school record (ADM2018),5,Considered but not required
+Secondary school record (ADM2018),2,Recommended
+Secondary school record (ADM2018),3,Neither required nor recommended
+Recommendations (ADM2018),1,Required
+Recommendations (ADM2018),5,Considered but not required
+Recommendations (ADM2018),2,Recommended
+Recommendations (ADM2018),3,Neither required nor recommended
