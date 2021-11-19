@@ -6,14 +6,15 @@ import psycopg2
 from sqlalchemy import create_engine
 from config import db_password
 
+#data from: https://www.kaggle.com/malapatiravi/graduate-school-admission-data/home
 
 def predictions(gre, gpa, undergrad_school_rank):
     
     db_string = f"postgresql://postgres:{db_password}@localhost:5432/Final_Project"
     engine = create_engine(db_string)
-    model_df = pd.read_sql('''SELECT * FROM MODEL_DATA''', con = engine)
+    model_df = pd.read_sql('''SELECT * FROM CLEAN_MODEL_DATA''', con = engine)
 
-    X = model_df[['gre','gpa','undergrad_school_rank']]
+    X = model_df[['gre','gpa','rank']]
     y = model_df['admit']
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, train_size = 0.8, random_state=1)
