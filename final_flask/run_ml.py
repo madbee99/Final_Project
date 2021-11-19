@@ -2,10 +2,16 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+import psycopg2
+from sqlalchemy import create_engine
+from config import db_password
 
 
 def predictions(gre, gpa, undergrad_school_rank):
-    model_df = pd.read_csv("./model_db.csv") #switch to connecting through pgadmin on Thursday
+    
+    db_string = f"postgresql://postgres:{db_password}@localhost:5432/Final_Project"
+    engine = create_engine(db_string)
+    model_df = pd.read_sql('''SELECT * FROM MODEL_DATA''', con = engine)
 
     X = model_df[['gre','gpa','undergrad_school_rank']]
     y = model_df['admit']
