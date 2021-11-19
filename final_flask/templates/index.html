@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>U.S. College Admissions</title>
+    <title >U.S. College Admissions</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -13,9 +13,14 @@
 <body>
     <div class="container">
         <!-- Add Jumbotron to Header -->
-        <div class="jumbotron text-center" style="background-image: url(https://wp.dailybruin.com/images/2017/04/web.ns_.bruin_.day_.AL_.jpg); background-size: cover;">
-          <h1>College Admissions</h1>
-          <!-- Add a button to activate scraping script -->
+        <div class="jumbotron text-center" style="background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_24/3385316/200609-ucla-campus-ew-647p.jpg); 
+                    background-size: 100% 160%; background-position: 0px -40px; height: 350px">
+          <br><br><br><br><br><br><br><br>
+          <div class="wrapper">
+    			<div class="box" style ="opacity: .2;"></div>
+    			<div class="box" style = "background-color: rgba(50,120,195,0.7); width: 600px;">
+    			<h1 style="color:rgb(255,184,28); text-align: center">College Admissions</h1></div>
+			</div>             
         </div>
 
       <div class="row" id="Background">
@@ -25,19 +30,30 @@
               <h2><b>This is the news</b></h2>
               <h4 class="media-heading"><i>This is the title</i></h4>
               <p>This is a paragraph</p>
+              <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_24/3385316/200609-ucla-campus-ew-647p.jpg">
             </div>
           </div>
         </div>
       </div>
-
-    <form action = "/predict" method = "POST">
-        <label>GRE SCORE (0-800)</label>
-        <input type = "text" name = "gre">
-        <label>GPA (0.0-4.0)</label>
-        <input type = "text" name = "gpa">
-        <label>Undergrad School Rank (Integer: 1-4)</label>
-        <input type = "text" name = "rank">
-        <input type = "submit" value = "Submit scores for prediction" style = "background-color:rgb(248, 41, 186)">
-    </form>
+      
+      <div class="row" id="Background">
+        <form action = "/predict" method = "POST">
+            <h2 style="text-align:center;" ><b>Graduate School Admissions Predictor</b></h2>
+            <h4 style="text-align:center;" class="media-heading"><i>Enter your GRE score, GPA, and Undergrad School Rank to predict whether or not you'll be admitted to the grad school of your dreams.</i></h4>
+            <p style="border:3px; border-style:solid; border-color:rgb(255,184,28); background-color:rgb(60,185,260); padding: 2em;">
+            <label>GRE SCORE (0-800)</label>
+            <input type = "text" name = "gre">
+            <br>
+            <label>GPA (0.0-4.0)</label>
+            <input type = "text" name = "gpa">
+            <br>
+            <label>Undergrad School Rank [Integer: 1 (highest rank) - 4 (lowest rank)]</label>
+            <input type = "text" name = "rank">
+            <br>
+            <input type = "submit" value = "Submit scores for prediction" style = "background-color:rgb(255,184,28)">
+            </p>
+        </form>
+        </div>
+      </div>
 </body>
 </html>
