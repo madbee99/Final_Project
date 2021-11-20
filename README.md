@@ -51,7 +51,7 @@ Questions:
 * Description and explanation of model's confusion matrix, including final accuracy score
 
 ## Database  
-I created a SQL database on pgAdmin to store all the data for this project. I used an "inner join" SQL query on *college_data_numerical_state* and *State_key* to create the *combined_table* with both the StateCode (as an integer) and the StateLabel (the corresponding state name), and then dropped the original StateCode column to result in a final *clean_table* with the StateLabel. These tables were used for my Tableau visualizations. I also loaded in my machine learning model dataset from [Kaggle]!(https://www.kaggle.com/malapatiravi/graduate-school-admission-data/home) into pgAdmin and then connected the table from my SQL database to my model using a SQLAlchemy connection string. See "Database" folder for code, ERD, and other materials.
+I created a SQL database on pgAdmin to store all the data for this project. I used an "inner join" SQL query on *college_data_numerical_state* and *State_key* to create the *combined_table* with both the StateCode (as an integer) and the StateLabel (the corresponding state name), and then dropped the original StateCode column to result in a final *clean_table* with the StateLabel. These tables were used for my Tableau visualizations. I also loaded in my machine learning model dataset from [Kaggle](https://www.kaggle.com/malapatiravi/graduate-school-admission-data/home) into pgAdmin and then connected the table from my SQL database to my model using a SQLAlchemy connection string. See "Database" folder for code, ERD, and other materials.
 
 See below for a screenshot of my "Final_Project" SQL Database, a list of my six tables, and example queries.  
 
