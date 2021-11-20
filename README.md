@@ -27,7 +27,11 @@ Questions:
 ## Presentation
 * Topic: U.S. College Admissions
 * Why:
-* Data Source Description:
+* Data Source Description: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
+I selected the variables shown in my *college_data* table within the NCES IPEDS data center for years 2009 to 2019. A screenshot of the general selection criteria for which colleges to include in the dataset is provided below.  
+![image](https://user-images.githubusercontent.com/86338416/142742361-92c6f3cd-c73d-4e03-8afd-30f1408e7e0b.png)  
+
+
 * Questions (hope to answer):
 * Data Exploration Description
 * Data Analysis Description
