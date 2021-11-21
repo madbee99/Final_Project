@@ -42,9 +42,9 @@ I selected the variables shown in my *college_data* table within the NCES IPEDS 
 
 ## GitHub
 * Structured Outline of Project
-* Links:
-*     Link to Demo Video
-*     [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
+Links:
+* Link to Demo Video
+* [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
 
 ## Machine Learning Model
 * Description of data preprocessing
