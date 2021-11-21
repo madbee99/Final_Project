@@ -47,6 +47,7 @@ I selected the variables shown in my *college_data* table within the NCES IPEDS 
 * Export to Tableau to visualize data
 * Create machine learning model
 * Create dashboard using Flask
+* Create presentation to show findings
 
 #### Links:
 * Link to Demo Video
