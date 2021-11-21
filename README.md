@@ -42,14 +42,15 @@ I selected the variables shown in my *college_data* table within the NCES IPEDS 
 
 ## GitHub
 * Structured Outline of Project
-* Link to Demo Video
-* Link to Google Slides presentation
+* Links:
+*     Link to Demo Video
+*     [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
 
 ## Machine Learning Model
 * Description of data preprocessing
 * Description of feature engineering/selection; team's decision-making process
 * Description of how the data was split into testing/training sests
-* Explanation of model choice, including liitations and benefits
+* Explanation of model choice, including limitations and benefits
 * Explanation of changes in model choice (if changes occurred)
 * Description of how the model was trained
 * Description and explanation of model's confusion matrix, including final accuracy score
