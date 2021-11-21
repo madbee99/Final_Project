@@ -41,7 +41,13 @@ I selected the variables shown in my *college_data* table within the NCES IPEDS 
 * Anything the team would have done differently
 
 ## GitHub
-* Structured Outline of Project  
+### Brief Outline of Project:
+* Choose dataset online: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
+* Clean data
+* Export to Tableau to visualize data
+* Create machine learning model
+* Create dashboard using Flask
+
 #### Links:
 * Link to Demo Video
 * [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
