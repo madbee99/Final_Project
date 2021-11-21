@@ -52,6 +52,7 @@ I selected the variables shown in my *college_data* table within the NCES IPEDS 
 #### Links:
 * Link to Demo Video
 * [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
+* [Link to Tableau Dashboard](https://public.tableau.com/app/profile/madeleine4973) (choose FinalProject) 
 
 ## Machine Learning Model
 * Description of data preprocessing
