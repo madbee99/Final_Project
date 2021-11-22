@@ -1,7 +1,7 @@
 # UC Berkeley Extension Data Analytics Bootcamp: Final Project
 By Madeleine Baier
 
-## Presentation
+## Overview of Presentation (Link [here](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing))  
 * Topic: U.S. College Admissions
 * Why: Interesting to see the data behind someone getting accepted to/rejected by a college  
 * Data Sources (saved in the [Resources folder](https://github.com/madbee99/Final_Project/tree/main/Resources)):  
