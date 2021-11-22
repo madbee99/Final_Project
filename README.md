@@ -54,7 +54,11 @@ Stanford University and Princeton University ACT Composite and SAT Math score 25
   * Find a more complex dataset for the machine learning model    
   * This analysis was limited to publicly-accessible data; a future analysis could study privately-available applicant data for a specific university -- data for each individual applicant, his/her test scores, GPA, letters of recommendation, acceptance/rejection, etc.  
 
-* Anything the team would have done differently
+* Anything I would have done differently:
+  * Created a more complex machine learning model (and also find a better dataset for the model)
+  * Found a better public dataset (each row represents an individual rather than an aggregated number of individuals)
+  * Spent more time on the dashboard formatting and learn more about HTML
+
 
 ## GitHub
 ### Brief Outline of Project:
@@ -96,9 +100,17 @@ See below for a screenshot of my "Final_Project" SQL Database, a list of my six 
 
 
 ## Dashboard
+Screenshots of Dashboard below and also saved in this [Github folder](https://github.com/madbee99/Final_Project/tree/main/final_flask/Screenshots). See demo video for more detail.
+![dashboard_pg1](https://user-images.githubusercontent.com/86338416/142791305-60ea08f7-e007-43ba-8d59-a81e0e59285e.PNG)
+![dashboard_pg2](https://user-images.githubusercontent.com/86338416/142791336-b22d1469-5bff-43fb-8d3b-bf0f8c309df8.PNG)
+![dashboard_pg3](https://user-images.githubusercontent.com/86338416/142791341-eceaacc1-a8db-4b23-a1ae-290a32554c9e.PNG)
+![dashboard_pg4](https://user-images.githubusercontent.com/86338416/142791350-3aae58e5-09f4-4673-a243-4d9779c82a63.PNG)
+
+If user input in the Graduate Admissions Predictor results in a model prediction of admission, this is the result: 
+![admission_prediction_result_html](https://user-images.githubusercontent.com/86338416/142791438-4b86bf4b-7134-4a36-b936-80cc97ab32e1.PNG)  
 
 
-
-
+If the model prediction is rejection, this is the result:  
+![rejection_prediction_result_html](https://user-images.githubusercontent.com/86338416/142791385-f3f09170-d960-43bb-87c4-d34bf01883ba.PNG)  
 
 
