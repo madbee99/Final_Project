@@ -10,9 +10,9 @@ By Madeleine Baier
       I selected the variables shown in my *college_data* table within the NCES IPEDS data center for years 2009 to 2019. A screenshot of the general selection criteria for which colleges to include in the dataset is provided below.    
       ![image](https://user-images.githubusercontent.com/86338416/142742361-92c6f3cd-c73d-4e03-8afd-30f1408e7e0b.png)  
 
-  * Model: [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)    
+  * Logistic Regression Model: [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)    
 
-The goal of my project is to explore U.S. College Admissions data and then create a machine learning model to predict whether or not someone will get into an unspecified graduate school based on an individual's inputted GRE test score, undergraduate GPA, and undergraduate school rank (1 being the highest and 4 being the lowest).  
+The goal of my project is to explore U.S. College Admissions data and then create a machine learning logistic regression model to predict whether or not someone will get into an unspecified graduate school based on an individual's inputted GRE test score, undergraduate GPA, and undergraduate school rank (1 being the highest and 4 being the lowest).  
 
 * Questions:
   * What SAT and ACT score ranges should an applicant have for a reasonable chance to be admitted to a particular college?  
