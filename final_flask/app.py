@@ -32,7 +32,7 @@ def predict():
             result_text = "Congrats! You will probably be admitted!"
         elif(output == 0):
             result_image = "https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Sad-Face-Emoji.png"
-            result_text = "Uh oh! You will probably be rejected"
+            result_text = "Uh oh! You will probably be rejected."
 
         
         print(output)
