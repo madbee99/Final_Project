@@ -8,7 +8,7 @@ Data Sources (saved in the [Resources folder](https://github.com/madbee99/Final_
       Query: 2009-2019 4-year public/private not-for-profit U.S. degree-granting colleges  
 * Model: [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)  
 
-The goal of my project is to predict whether or not someone will get into an unspecified graduate school college based on an individual's inputted GRE test score, undergraduate GPA, and undergraduate school rank (1 being the highest and 4 being the lowest).
+The goal of my project is to explore U.S. College Admissions data and then create a machine learning model to predict whether or not someone will get into an unspecified graduate school based on an individual's inputted GRE test score, undergraduate GPA, and undergraduate school rank (1 being the highest and 4 being the lowest).
 
 ## Presentation
 * Topic: U.S. College Admissions
