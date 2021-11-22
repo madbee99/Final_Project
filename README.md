@@ -6,7 +6,7 @@ By Madeleine Baier
 * Why: Interesting to see the data behind someone getting accepted to/rejected by a college  
 * Data Sources (saved in the [Resources folder](https://github.com/madbee99/Final_Project/tree/main/Resources)):  
   * Visualizations:  IPEDS (Integrated Postsecondary Education Data System) [data](https://nces.ed.gov/ipeds/datacenter/Data.aspx) submitted to NCES (National Center for Education Statistics)    
-      Query: 2009-2019 4-year public/private not-for-profit U.S. degree-granting colleges    
+    * Query: 2009-2019 4-year public/private not-for-profit U.S. degree-granting colleges      
       I selected the variables shown in my *college_data* table within the NCES IPEDS data center for years 2009 to 2019. A screenshot of the general selection criteria for which colleges to include in the dataset is provided below.    
       ![image](https://user-images.githubusercontent.com/86338416/142742361-92c6f3cd-c73d-4e03-8afd-30f1408e7e0b.png)  
 
