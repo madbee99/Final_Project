@@ -50,9 +50,9 @@ The goal of my project is to explore U.S. College Admissions data and then creat
 *See the analyses on Stanford University, UC Berkeley, UCLA, and Princeton University within the presentation.*  
 
 * Recommendation for Future Analysis/Things I would have done differently:
-  * Find a more complex dataset for the machine learning model
-  * This analysis was limited to publicly-accessible data; a future analysis could study privately-available applicant data for a specific university -- data for each individual applicant, his/her test scores, GPA, letters of recommendation, acceptance/rejection, etc.
-  * Spend more time learning HTML and dashboard formatting
+  * Find a more complex dataset for the machine learning model  
+  * This analysis was limited to publicly-accessible data; a future analysis could study privately-available applicant data for a specific university -- data for each individual applicant, his/her test scores, GPA, letters of recommendation, acceptance/rejection, etc.  
+  * Spend more time learning HTML and dashboard formatting  
 
 ## GitHub
 ### Brief Outline of Project:
@@ -73,7 +73,7 @@ For the machine learning model portion of the project, I used a [Graduate Admiss
 <p>
 Since the model needed to predict whether an applicant would be admitted or not to an unspecified graduate school, the *admit* column of the data set was set as the dependent variable (y) and the three other columns/variables (*gre*, *gpa*, and *rank*) were set as the independent variables (x). Since there were only three dependent variables to begin with and they all seemed important to determine an applicants’ admission, there was no selective feature selection involved (i.e., all features were used, with the *admit* variable as the target feature).
  <p>
-The dataset was then split into testing and training datasets using *sklearn train_test_split* using a train size of 80% and test size of 20% of the original data. The first model iteration did not scale the data, but then I realized that the data should be scaled, as updated in the second model iteration (see [machine_learning_model.ipynb](https://github.com/madbee99/Final_Project/blob/e3142ad0120fe9aebf28f3f8e992657bbd7b9b8b/machine_learning_model.ipynb) file). In order for one variable to not carry more weight than it should in the model (i.e., *gre* values can range from 0 to 800 but *gpa* is on a scale of 0 to 4.0 and *rank* is on a scale from 1 to 4, but *gre* is not meant to be captured as 200 times more significant than *gpa* and *rank*), the data were scaled by transforming the data using the StandardScaler class from *sklearn.preprocessing*. The dataset was already clean so there was not much involved in the preprocessing of the data other than checking that there were no null values and then scaling the data.
+The dataset was then split into testing and training datasets using *sklearn train_test_split* using a train size of 80% and test size of 20% of the original data. The first model iteration did not scale the data, but then I realized that the data should be scaled, as updated in the second model iteration (see [machine_learning_model](https://github.com/madbee99/Final_Project/blob/e3142ad0120fe9aebf28f3f8e992657bbd7b9b8b/machine_learning_model.ipynb) file). In order for one variable to not carry more weight than it should in the model (i.e., *gre* values can range from 0 to 800 but *gpa* is on a scale of 0 to 4.0 and *rank* is on a scale from 1 to 4, but *gre* is not meant to be captured as 200 times more significant than *gpa* and *rank*), the data were scaled by transforming the data using the StandardScaler class from *sklearn.preprocessing*. The dataset was already clean so there was not much involved in the preprocessing of the data other than checking that there were no null values and then scaling the data.
 <p>
 Since the model is using binary classification to determine whether or not an applicant will be admitted to graduate school, logistic regression was the appropriate statistical model. One drawback to logistic regression is that it assumes linearity. The original dataset of 400 rows had 273 rejections (*admit* = 0) and 127 admissions (*admit* = 1). I chose to add a balanced class weight to the logistic regression model so there would be an equal number of admissions and rejections available to train the model.
  <p>
