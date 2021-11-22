@@ -84,7 +84,7 @@ The actual balanced accuracy score (comparing the testing admission predictions 
    ![Confusion_matrix](https://user-images.githubusercontent.com/86338416/142792503-32a65eac-aed4-498e-9945-0ceb9bfb9b66.PNG)
 
 As one can see from the accuracy score and the confusion matrix, the model could use some improvement, especially when there are more false positives than true positives, meaning that the model is incorrectly predicting that a student is admitted to graduate school more than the model is correctly predicting that a student is admitted.  
-A screenshot of the model code is provided below (link to Github folder [here]https://github.com/madbee99/Final_Project/blob/5358efb882abc67e0d6fc7eca5a13704fe9d8f5f/final_flask/Screenshots/Machine_learning_model_code.PNG.      
+A screenshot of the model code is provided below (link to Github folder [here](https://github.com/madbee99/Final_Project/blob/5358efb882abc67e0d6fc7eca5a13704fe9d8f5f/final_flask/Screenshots/Machine_learning_model_code.PNG) ).      
 
 ![image](https://user-images.githubusercontent.com/86338416/142789413-5fae0acf-cec2-4abf-bac9-1bc979859320.png)  
 
