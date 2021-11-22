@@ -1,5 +1,5 @@
-# Final_Project
-Individual project - no teammates
+# UC Berkeley Extension Data Analytics Bootcamp: Final Project
+By Madeleine Baier
 
 ## Presentation
 * Topic: U.S. College Admissions
