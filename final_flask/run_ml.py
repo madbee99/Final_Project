@@ -30,3 +30,7 @@ def predictions(gre, gpa, undergrad_school_rank):
     print(f"Testing Data Score: {classifier.score(X_test_scaled, y_test)}")
 
     return classifier.predict([[gre, gpa, undergrad_school_rank]])
+
+
+
+    
