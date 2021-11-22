@@ -83,6 +83,7 @@ The actual balanced accuracy score (comparing the testing admission predictions 
 ![image](https://user-images.githubusercontent.com/86338416/142789367-da6121e1-d6fb-4a1d-8c54-ddbc8d51aa22.png)  
 As one can see from the accuracy score and the confusion matrix, the model could use some improvement, especially when there are more false positives than true positives, meaning that the model is incorrectly predicting that a student is admitted to graduate school more than the model is correctly predicting that a student is admitted.  
 A screenshot of the model code is provided below (link to Github folder [here](https://github.com/madbee99/Final_Project/blob/4188b5fcb28680588efeaad0b946b8e91d35fcc8/final_flask/Screenshots/Machine_learning_model_code.PNG)).    
+
 ![image](https://user-images.githubusercontent.com/86338416/142789413-5fae0acf-cec2-4abf-bac9-1bc979859320.png)  
 
 I then connected the code for my model (*run_ml.py*) to a Flask dashboard using an html file for the results (*results.html*). The user is prompted to enter one’s GRE score, GPA, and Undergraduate School rank. Then the *app.py* file runs the prediction method from the *run_ml.py* file and outputs the result using the *results.html*, congratulating the user if the model predicted that the user would be accepted to graduate school, and showing an “uh oh” and a sad emoji image if the model predicted that the user would be rejected.
