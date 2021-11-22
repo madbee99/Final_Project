@@ -49,16 +49,10 @@ The goal of my project is to explore U.S. College Admissions data and then creat
   * In particular, what does a select group of college admission stats look like?  
 *See the analyses on Stanford University, UC Berkeley, UCLA, and Princeton University within the presentation.*  
 
-
-* Recommendation for Future Analysis
-  * Find a more complex dataset for the machine learning model    
-  * This analysis was limited to publicly-accessible data; a future analysis could study privately-available applicant data for a specific university -- data for each individual applicant, his/her test scores, GPA, letters of recommendation, acceptance/rejection, etc.  
-
-* Anything I would have done differently:
-  * Created a more complex machine learning model (and also find a better dataset for the model)
-  * Found a better public dataset (each row represents an individual rather than an aggregated number of individuals)
-  * Spent more time on the dashboard formatting and learn more about HTML
-
+* Recommendation for Future Analysis/Things I would have done differently:
+  * Find a more complex dataset for the machine learning model
+  * This analysis was limited to publicly-accessible data; a future analysis could study privately-available applicant data for a specific university -- data for each individual applicant, his/her test scores, GPA, letters of recommendation, acceptance/rejection, etc.
+  * Spend more time learning HTML and dashboard formatting
 
 ## GitHub
 ### Brief Outline of Project:
