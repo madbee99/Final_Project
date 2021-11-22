@@ -34,8 +34,8 @@ The goal of my project is to explore U.S. College Admissions data and then creat
   * HTML/Javascript
 
 * Result of Analysis: Highlights:
-  * From 2011-2019, UCLA received more applications from women than men  
-  * Stanford University and Princeton University receive fewer applications than UC Berkeley and UCLA  
+  * From 2011 to 2019, UCLA received more applications from women than men  
+  * From 2011 to 2019, Stanford University and Princeton University have received significantly fewer applications than UC Berkeley and UCLA  
   * This means that more students are admitted and end up enrolling each year at UC Berkeley and UCLA than at Stanford University and Princeton University  
 Stanford University and Princeton University ACT Composite and SAT Math score 25th and 75th percentiles have remained stagnant or gotten better over the years (2009 to 2019)  
   * UC Berkeley and UCLA have seen relatively faster improvement in ACT Composite and SAT Math score 25th and 75th percentiles
