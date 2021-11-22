@@ -28,10 +28,10 @@ I selected the variables shown in my *college_data* table within the NCES IPEDS 
 
 ## GitHub
 ### Brief Outline of Project:
-* Choose dataset online: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
+* Choose visualization dataset online: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
 * Clean data
 * Export to Tableau to visualize data
-* Create machine learning model
+* Create machine learning model using [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)  
 * Create dashboard using Flask
 * Create presentation to show findings
 
