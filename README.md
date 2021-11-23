@@ -10,7 +10,7 @@ By Madeleine Baier
 * Export to Tableau to visualize data
 * Create machine learning model using [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)  
 * Create dashboard using Flask
-* Create presentation to show findings
+* Create presentation and demo video to show findings
 
 #### Links:
 * Link to Demo Video
