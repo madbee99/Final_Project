@@ -20,7 +20,7 @@ By Madeleine Baier
 
 ## Overview of Presentation (Link [here](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing))  
 * Topic: U.S. College Admissions
-* Why: Interesting to see the data behind someone getting accepted to/rejected by a college  
+* Why: Interesting to see the data behind an applicant getting accepted to/rejected by a college  
 * Data Sources (saved in the [Resources folder](https://github.com/madbee99/Final_Project/tree/main/Resources)):  
   * Visualizations:  IPEDS (Integrated Postsecondary Education Data System) [data](https://nces.ed.gov/ipeds/datacenter/Data.aspx) submitted to NCES (National Center for Education Statistics)    
     * Query: 2009-2019 4-year public/private not-for-profit U.S. degree-granting colleges      
