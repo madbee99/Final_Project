@@ -6,6 +6,7 @@ By Madeleine Baier
 ### Brief Outline of Project:
 * Choose visualization dataset online: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
 * Clean data
+* Connect data to pgAdmin
 * Export to Tableau to visualize data
 * Create machine learning model using [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)  
 * Create dashboard using Flask
