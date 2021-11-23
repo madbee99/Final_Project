@@ -106,7 +106,7 @@ See below for a screenshot of my "Final_Project" SQL Database, a list of my six 
 
 
 ## Dashboard
-Screenshots of the Dashboard are below and are also saved in this [Github folder](https://github.com/madbee99/Final_Project/tree/main/final_flask/Screenshots). See demo video for more detail.
+Screenshots of the Dashboard are below and are also saved in this [Github folder](https://github.com/madbee99/Final_Project/tree/main/final_flask/Screenshots). See [demo video](https://www.youtube.com/watch?v=gxNH2IYU86A) for more detail.
 ![dashboard_pg1](https://user-images.githubusercontent.com/86338416/142791305-60ea08f7-e007-43ba-8d59-a81e0e59285e.PNG)
 ![dashboard_pg2](https://user-images.githubusercontent.com/86338416/142791336-b22d1469-5bff-43fb-8d3b-bf0f8c309df8.PNG)
 ![dashboard_pg3](https://user-images.githubusercontent.com/86338416/142791341-eceaacc1-a8db-4b23-a1ae-290a32554c9e.PNG)
