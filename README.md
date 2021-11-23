@@ -13,7 +13,7 @@ By Madeleine Baier
 * Create presentation and demo video to show findings
 
 #### Links:
-* Link to Demo Video
+* [Link to Demo Video](https://www.youtube.com/watch?v=gxNH2IYU86A)
 * [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
 * [Link to Tableau Dashboard](https://public.tableau.com/app/profile/madeleine4973) (choose "FinalProject")  
 
