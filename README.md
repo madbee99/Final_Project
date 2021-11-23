@@ -1,6 +1,22 @@
 # UC Berkeley Extension Data Analytics Bootcamp: Final Project
 By Madeleine Baier
 
+
+## GitHub
+### Brief Outline of Project:
+* Choose visualization dataset online: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
+* Clean data
+* Export to Tableau to visualize data
+* Create machine learning model using [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)  
+* Create dashboard using Flask
+* Create presentation to show findings
+
+#### Links:
+* Link to Demo Video
+* [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
+* [Link to Tableau Dashboard](https://public.tableau.com/app/profile/madeleine4973) (choose "FinalProject")  
+
+
 ## Overview of Presentation (Link [here](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing))  
 * Topic: U.S. College Admissions
 * Why: Interesting to see the data behind someone getting accepted to/rejected by a college  
@@ -12,7 +28,7 @@ By Madeleine Baier
 
   * Logistic Regression Model: [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)    
 
-The goal of my project is to explore U.S. College Admissions data and then create a machine learning logistic regression model to predict whether or not someone will get into an unspecified graduate school based on an individual's inputted GRE test score, undergraduate GPA, and undergraduate school rank (1 being the highest and 4 being the lowest).  
+The goal of my project is to explore U.S. College Admissions data and then create a machine learning logistic regression model to predict whether or not someone will get into an unspecified graduate school based on an individual's inputted GRE test score, undergraduate GPA, and undergraduate school rank.  
 
 * Questions:
   * What SAT and ACT score ranges should an applicant have for a reasonable chance to be admitted to a particular college?  
@@ -34,18 +50,18 @@ The goal of my project is to explore U.S. College Admissions data and then creat
   * HTML/Javascript
 
 * Result of Analysis: Highlights:
-  * From 2011 to 2019, UCLA received more applications from women than men  
-  * From 2011 to 2019, Stanford University and Princeton University have received significantly fewer applications than UC Berkeley and UCLA  
-    * This means that more students are admitted and end up enrolling each year at UC Berkeley and UCLA than at Stanford University and Princeton University  
-  * Stanford University and Princeton University ACT Composite and SAT Math score 25th and 75th percentiles have remained stagnant or gotten better over the years (2009 to 2019)  
+  * Each year from 2011 to 2019, UCLA received more applications from women than men  
+  * Each year from 2011 to 2019, Stanford University and Princeton University received significantly fewer applications than UC Berkeley and UCLA  
+    * More students are admitted and end up enrolling each year at UC Berkeley and UCLA than at Stanford University and Princeton University  
+  * Stanford University and Princeton University ACT Composite and SAT Math score 25th and 75th percentiles have remained stagnant or increased over the years (2009 to 2019)  
   * UC Berkeley and UCLA have seen relatively faster improvement in ACT Composite and SAT Math score 25th and 75th percentiles
 * Analysis Questions: Answered:
   * What SAT and ACT score ranges should an applicant have for a reasonable chance to be admitted to a particular college?  
-*It depends on the school and the year. I would recommend looking at the 25th and 75th percentile test scores for a particular college and aim to do at least as well as the 25th percentile score.*  
+*It depends on the school and the year. I would recommend looking at the 25th and 75th percentile test scores for a particular college and then aim to do at least as well as the 25th percentile score, but in general, the higher one's score, the higher the likelihood of acceptance.*  
   * Does gender play a role in likelihood of acceptance?  
-*Not necessarily. There is insufficient data to answer this question. Although it does seem that certain schools like UCLA tend to admit more women than men because more women apply, schools like Stanford University and Princeton University tend to admit fairly even numbers of women and men even though more men tend to apply (see 2015 AAE slide within presentation).*
+*Not necessarily. There is insufficient data to answer this question. Although it does seem that certain schools like UCLA tend to admit more women than men because more women apply, schools like Stanford University and Princeton University tend to admit fairly even numbers of women and men even in years when more men have applied (see 2015 AAE slide within presentation).*
   * Are there any surprising year-over-year changes in applicants (# of applicants, SAT and ACT score range changes, etc.)? 
-*The range widths tend to stay the same but the 25th and 75th percentiles seem to have increased over the years (meaning one needs to have better SAT/ACT scores for their application to be competitive).*  
+*The range widths tend to stay the same but the 25th and 75th percentiles generally seem to have increased over the years (meaning one needs to have better SAT/ACT scores for their application to be competitive).*  
   * In particular, what does a select group of college admission stats look like?  
 *See the analyses on Stanford University, UC Berkeley, UCLA, and Princeton University within the presentation.*  
 
@@ -54,26 +70,13 @@ The goal of my project is to explore U.S. College Admissions data and then creat
   * This analysis was limited to publicly-accessible data; a future analysis could study privately-available applicant data for a specific university -- data for each individual applicant, his/her test scores, GPA, letters of recommendation, acceptance/rejection, etc.  
   * Spend more time learning HTML and dashboard formatting  
 
-## GitHub
-### Brief Outline of Project:
-* Choose visualization dataset online: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
-* Clean data
-* Export to Tableau to visualize data
-* Create machine learning model using [Kaggle Graduate Admissions Dataset](https://www.kaggle.com/fsadjadpour/binary)  
-* Create dashboard using Flask
-* Create presentation to show findings
-
-#### Links:
-* Link to Demo Video
-* [Link to Google Slides presentation](https://docs.google.com/presentation/d/1DgaaoOcsuGPSbVyvlUyBXsonjAKlJpEHfUpoadlsH2c/edit?usp=sharing)
-* [Link to Tableau Dashboard](https://public.tableau.com/app/profile/madeleine4973) (choose "FinalProject") 
 
 ## Machine Learning Model
-For the machine learning model portion of the project, I used a [Graduate Admissions dataset from Kaggle](https://www.kaggle.com/fsadjadpour/binary) with four variables: *admit* (0 = rejected, 1 = admitted), *gre* (GRE score), *gpa* (applicant’s undergraduate gpa), and *rank* (undergraduate school rank with 1 being the highest and 4 being the lowest). I first loaded this dataset into pgAdmin and then used a SQLAlchemy connection string to connect the dataset to the model.
+For the machine learning model portion of the project, I used a [Graduate Admissions dataset from Kaggle](https://www.kaggle.com/fsadjadpour/binary) with four variables: *admit* (0 = rejected, 1 = admitted), *gre* (GRE score), *gpa* (applicant’s undergraduate GPA), and *rank* (undergraduate school rank with 1 being the highest and 4 being the lowest). I first loaded this dataset into pgAdmin and then used a SQLAlchemy connection to connect the database to the model.
 <p>
-Since the model needed to predict whether an applicant would be admitted or not to an unspecified graduate school, the *admit* column of the data set was set as the dependent variable (y) and the three other columns/variables (*gre*, *gpa*, and *rank*) were set as the independent variables (x). Since there were only three dependent variables to begin with and they all seemed important to determine an applicants’ admission, there was no selective feature selection involved (i.e., all features were used, with the *admit* variable as the target feature).
+Since the model needed to predict whether an applicant would be admitted or not to an unspecified graduate school, the *admit* column of the dataset was set as the dependent variable (y) and the three other columns/variables (*gre*, *gpa*, and *rank*) were set as the independent variables (x). Since there were only three dependent variables to begin with and they all seemed important to determine an applicants’ admission, there was no selective feature selection involved (i.e., all features were selected, with the *admit* variable as the target feature).
  <p>
-The dataset was then split into testing and training datasets using *sklearn train_test_split* using a train size of 80% and test size of 20% of the original data. The first model iteration did not scale the data, but then I realized that the data should be scaled, as updated in the second model iteration. In order for one variable to not carry more weight than it should in the model (i.e., *gre* values can range from 0 to 800 but *gpa* is on a scale of 0 to 4.0 and *rank* is on a scale from 1 to 4, but *gre* is not meant to be captured as 200 times more significant than *gpa* and *rank*), the data were scaled by transforming the data using the StandardScaler class from *sklearn.preprocessing*. The dataset was already clean so there was not much involved in the preprocessing of the data other than checking that there were no null values and then scaling the data.
+The dataset was then split into testing and training datasets using *sklearn train_test_split* with a training size of 80% and a test size of 20% of the original data. The first iteration of the model did not scale the data, but after realizing that the data should be scaled, I updated my model (see second iteration of the model in the [machine_learning_model.ipynb file](https://github.com/madbee99/Final_Project/blob/bb1497b47725ab95f9af33bb60e2e6977804cff6/machine_learning_model.ipynb) ). In order for one variable to not carry more weight than it should in the model (i.e., *gre* values can range from 0 to 800 but *gpa* is on a scale of 0 to 4.0 and *rank* is on a scale from 1 to 4, but *gre* is not meant to be captured as 200 times more significant than *gpa* and *rank*), the data were scaled by transforming the data using the StandardScaler class from *sklearn.preprocessing*. The dataset was already clean so there was not much involved in the preprocessing of the data other than checking that there were no null values and then scaling the data.
 <p>
 Since the model is using binary classification to determine whether or not an applicant will be admitted to graduate school, logistic regression was the appropriate statistical model. One drawback to logistic regression is that it assumes linearity. The original dataset of 400 rows had 273 rejections (*admit* = 0) and 127 admissions (*admit* = 1). I chose to add a balanced class weight to the logistic regression model so there would be an equal number of admissions and rejections available to train the model.
  <p>
