@@ -91,7 +91,7 @@ A screenshot of the model code is provided below (link to Github folder [here](h
 
 ![image](https://user-images.githubusercontent.com/86338416/142789413-5fae0acf-cec2-4abf-bac9-1bc979859320.png)  
 
-I then connected the code for my model (*run_ml.py*) to a Flask dashboard using an html file for the results (*results.html*). The user is prompted to enter one’s GRE score, GPA, and Undergraduate School rank. Then the *app.py* file runs the prediction method from the *run_ml.py* file and outputs the result using the *results.html*, congratulating the user if the model predicted that the user would be accepted to graduate school, and showing an “uh oh” and a sad emoji image if the model predicted that the user would be rejected.
+I then connected the code for my model (*run_ml.py*) to a Flask dashboard using an HTML file for the results (*results.html*). The user is prompted to enter one’s GRE score, GPA, and Undergraduate School rank. Then the *app.py* file runs the prediction method from the *run_ml.py* file and outputs the result using the *results.html*, congratulating the user if the model predicted acceptance to graduate school, and showing an “uh oh” and a sad emoji if the model predicted rejection.
 See the "Dashboard" section for more detail.  
 
 
