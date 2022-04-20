@@ -1,8 +1,8 @@
-# UC Berkeley Extension Data Analytics Bootcamp: Final Project
+# College Admissions Analysis
+## UC Berkeley Extension Data Analytics Bootcamp: Final Project
 By Madeleine Baier
 
 
-## GitHub
 ### Brief Outline of Project:
 * Choose visualization dataset online: [NCES data](https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?goToReportId=7)
 * Clean data
